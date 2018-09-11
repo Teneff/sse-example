@@ -1,0 +1,32 @@
+{
+  "name": "sse-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teneff/sse-example.git"
+  },
+  "keywords": [
+    "sse",
+    "example"
+  ],
+  "author": "Stefan Teneff <st.teneff@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Teneff/sse-example/issues"
+  },
+  "homepage": "https://github.com/Teneff/sse-example#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "sse-express": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
